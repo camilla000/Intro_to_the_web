@@ -1,12 +1,12 @@
-require "sinatra"
-require "sinatra/reloader" if development?
+require 'sinatra'
+require 'sinatra/reloader' if development?
 
 get '/' do
   'hello!!'
 end
 
 get '/secret' do
-  'dont tell anyone!'
+  "don't tell anyone!"
 end
 
 get '/cat' do
